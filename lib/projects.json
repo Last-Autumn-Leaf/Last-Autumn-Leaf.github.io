@@ -1,0 +1,123 @@
+[
+  {
+    "demoUrl": "https://www.dionysas.com",
+    "description": "The project utilizes data analysis and automation to optimize restaurant operations, including predicting attendance, managing stock and staff schedules, implementing an intelligent chat service, and providing managers with real-time insights through a centralized dashboard.",
+    "details": [
+      "Prediction of daily, weekly, and monthly attendance using machine learning techniques based on historical restaurant data, seasonal trends, and surrounding events.",
+      "Forecasting of stock flow to optimize orders and avoid stockouts or waste.",
+      "Automated management of staff schedules based on attendance forecasts, leave, and availability to ensure a workforce tailored to the restaurant's demand.",
+      "Implementation of an intelligent chat service capable of answering customer questions regarding the restaurant menu, ingredients, food allergies, etc.",
+      "Integration of a dashboard allowing restaurant managers to view attendance forecasts, stock levels, staff schedules, and interactions with the intelligent chat service from a single software.",
+      "Continuous real-time data collection to refine prediction models and artificial intelligence algorithms, ensuring constant performance improvement and adaptation to restaurant evolutions.",
+      "Future extension possibility to include additional features such as reservation management, integration with delivery services, etc., to meet the evolving needs of the restaurant and promote its growth."
+    ],
+    "githubUrl": "",
+    "imageUrl": "img/dionysas.png",
+    "skills": [
+      "XGBoost",
+      "RNN",
+      "Ensemble model",
+      "NVIDIA GPU",
+      "Python",
+      "AI",
+      "Machine Learning",
+      "Django",
+      "AWS",
+      "CSS",
+      "HTML",
+      "React",
+      "NextJs",
+      "Tailwind Css",
+      "Spring Boot",
+      "Vercel",
+      "Power BI",
+      "Postgres",
+      "Sanity",
+      "OAuth"
+    ],
+    "title": "Dionysas",
+    "type": "Startup Project"
+  },
+  {
+    "demoUrl": "",
+    "description": "Implementation of agent movement using fuzzy logic",
+    "details": [
+      "Implementing a genetic algorithm to find optimal attributes for combatting enemies.",
+      "Implementing several state-space search algorithms such as A*, BFS, and DFS.",
+      "Implementing a knowledge base using Prolog."
+    ],
+    "githubUrl": "",
+    "imageUrl": "img/agent-oriented_programming.jpeg",
+    "skills": [
+      "Genetic Algorithm",
+      "Search Algorithm",
+      "Fuzzy Logic",
+      "Python",
+      "Dynamic programming",
+      "AI",
+      "Machine Learning"
+    ],
+    "title": "Agent-oriented programming",
+    "type": "University Project"
+  },
+  {
+    "demoUrl": "",
+    "description": "Creating a handwriting recognition system that predicts English words from pen movements with over 90% accuracy, utilizing velocity vectors and various recurrent neural networks with attention mechanism.",
+    "details": [
+      "Translating a sequence of 2D pen coordinates into a sequence of letters (English alphabet).",
+      "Pre-processing the data to use a velocity vector rather than coordinates.",
+      "Designing a model using various types of recurrent neural networks such as Elman, LSTM, and GRU.",
+      "Implementing an attention mechanism.",
+      "Training a model capable of predicting words written by different users with an accuracy exceeding 90%."
+    ],
+    "githubUrl": "",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/Apple_Watch-.jpg",
+    "skills": [
+      "RNN",
+      "Attention module",
+      "Pytorch",
+      "Jupyter Notebook",
+      "Python",
+      "AI",
+      "Machine Learning"
+    ],
+    "title": "Analysis of acceleration data from a smartwatch.",
+    "type": "University Project"
+  },
+  {
+    "title": "Spiking neural network classifier",
+        "description": "Designing a digit classifier using a spiking neural network",
+        "type": "University Project",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/44/Neuron3.png",
+        "githubUrl": "",
+        "demoUrl": "",
+        "skills": [
+            "Brians",
+            "Pytorch",
+            "Python",
+            "Jupyter notebook",
+            "Nvidia GPU",
+            "AI",
+            "Machine Learning"
+        ],
+      "details": [
+        "Designing and implementing simulations of the nervous system and information processing.",
+        "Integrating recent knowledge in neurophysiology and using frequency transformation of images as input to the model."
+      ]
+    },
+    {
+      "title": "Auto aiming bow",
+      "description": "Research on the state of the art of sensor usage in archery and implementation of a new solution to aid athletes in training",
+      "type": "University Project",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dc/WA_archery_target_with_arrows.jpg",
+      "githubUrl": "",
+      "demoUrl": "",
+      "skills": ["Java", "Arduino", "Kmine", "MySql","C++"],
+      "details": [
+        "Training of a model capable of predicting with 87% accuracy which quarter of the target the arrow will land in.",
+        "Prediction and visualization of the shot based on the current position of the bow on a user interface visible on a computer.",
+        "Implementation of sensor data acquisition and recording using Arduino and SQL.",
+        "Design of a database enabling personalized prediction per user."
+      ]
+    }
+]

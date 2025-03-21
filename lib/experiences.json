@@ -1,0 +1,90 @@
+[
+  {
+    "title": "Fullstack Developer",
+    "company": "InMédia Technologies",
+    "date": "May 2023 - Present",
+    "description": "Design, development, and maintenance of comprehensive library management software as a Fullstack Developer.",
+    "skills": [
+      "Node.js",
+      "React Js",
+      "MUI",
+      "Jquery",
+      "Java",
+      "Spring Boot",
+      "Postgres SQL",
+      "Agile Development",
+      "CI/CD",
+      "Database Management",
+      "Unit Testing"
+    ],
+    "details": [
+      "Design, development, and maintenance of comprehensive library management software as a Fullstack Developer",
+      "Expertise in developing web applications with modern technologies such as HTML, CSS, JavaScript, and frameworks like ReactJs and MUI",
+      "Creation of advanced features for managing inventory, sales, transactions, and customer accounts within the library management software",
+      "Integration of third-party APIs to connect the library management software with external services, such as book suppliers, payment systems, etc.",
+      "Development of an intuitive and responsive user interface to facilitate navigation and enhance user experience",
+      "Utilization of relational databases like PostgreSQL to efficiently store essential software information",
+      "Implementation of Agile and Scrum methods to improve the efficiency and flexibility of the development process",
+      "Participation in code reviews and testing to ensure the quality and stability of the software"
+    ],
+    "url": "https://inmediatech.co"
+  },
+  {
+    "title": "Undergraduate Research Assistant",
+    "company": "University of Sherbrooke - NECOTIS Laboratory",
+    "date": "May 2022 - Aug 2022 · 4 months",
+    "description": "In-depth study of the state-of-the-art convolutional neural networks (CNNs) applied to audio processing, focusing on different representations such as pulse density modulation and MFCC coefficients.",
+    "skills": [
+      "Python",
+      "Pytorch",
+      "SSH",
+      "Scripting",
+      "Linux",
+      "NLP",
+      "CNN",
+      "Git",
+      "Agile Development",
+      "Unit Testing"
+    ],
+    "details":[
+      "In-depth study of the state-of-the-art convolutional neural networks (CNNs) applied to audio processing, focusing on different representations such as pulse density modulation and MFCC coefficients. This research aimed to understand the advantages and limitations of each approach for the task of keyword-spotting",
+      "Design, training, and evaluation of a CNN model specifically dedicated to keyword-spotting using the studied audio representations. The model was implemented using the PyTorch library for its flexibility and GPU computing capabilities",
+      "Deployment of the keyword-spotting model on a portable NVIDIA GPU to ensure real-time performance and practical usage in embedded applications",
+      "Training the models in a distributed manner using Canada's official national high-performance computing system, 'Calcul Québec,' via an SSH connection. This provided considerable computing power to accelerate model training",
+      "Utilization of the Tensorboard framework to visualize the training progress of the models. This approach enabled efficient tracking and analysis of model performance and learning at each stage",
+      "Drafting a comprehensive research report as part of a master's project, detailing the methodology, results, and conclusions of the research conducted on convolutional neural networks applied to keyword-spotting"
+    ]
+  },
+    {
+        "title": "Researcher intern",
+        "company": "CETIAT Laboratory, representative of the French Standard in Europe",
+        "date": "Feb 2021 - Aug 2021 · 8 months",
+        "description": "Design and implementation of a custom test bench, in collaboration with a multidisciplinary team, for the precise and reliable calibration of flow rate sensors",
+        "skills": [
+            "Python",
+            "C",
+            "C++",
+            "QtPy",
+            "PyQt",
+            "Qt",
+            "Automation",
+            "Sensor engineering",
+            "fluid dynamics",
+            "Unit Testing"
+        ],
+      "details": [
+        "Design and implementation of a custom test bench, in collaboration with a multidisciplinary team, for the precise and reliable calibration of flow rate sensors",
+        "Development of an ergonomic and intuitive user interface allowing real-time visualization of the test bench sensor data. The interface was developed in Python and C++ to ensure high performance and cross-platform compatibility",
+        "Implementation of advanced simulations to analyze and predict the flow evolution within the test bench. These simulations optimized the test bench performance and ensured high measurement accuracy",
+        "The solution I implemented became a reference tool within the flowmeter calibration research laboratory and is currently used by France's representative at the European level",
+        "As a co-author, I actively participated in writing a high-level scientific article on the design and performance of the flow measurement test bench. This article was published in the prestigious journal 'Flow Measurement & Instrumentation'",
+        "I played a central role in project management, coordinating the different stages of design, implementation, and validation of the test bench. This also involved regular communication with internal and external stakeholders",
+        "The test bench I designed achieved remarkable results in terms of measurement accuracy and reproducibility, positively impacting the reliability of sensors used in various industrial fields"
+      ],
+      "article": {
+        "title": "Development and validation of a dynamic primary standard for unsteady liquid flow calibration",
+        "url":"https://www.sciencedirect.com/science/article/pii/S0955598622000188"
+      },
+      "url":"https://www.cetiat.fr"
+    }
+]
