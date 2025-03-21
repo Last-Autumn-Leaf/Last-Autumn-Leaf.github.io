@@ -34,7 +34,7 @@ export default function Home() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('/carlos/api/leetcode');
+        const response = await fetch('/api/leetcode');
 
         if (!response.ok) {
           setData(undefined);

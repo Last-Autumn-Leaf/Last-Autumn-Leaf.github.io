@@ -8,7 +8,7 @@ const nextConfig = {
   },
   // assetPrefix: process.env.NODE_ENV === 'production' ? `/${GITLAB_PROJECT_NAME}` : '',
   output: 'export',
-  basePath: '/carlos',
+  basePath: '',
 }
 
 export default nextConfig
