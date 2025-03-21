@@ -25,6 +25,7 @@ import { useEffect, useState } from 'react';
 import {LeetCodeData} from "@/types/api";
 import { ImSpinner9 } from "react-icons/im";
 import {LeetcodeScore} from "@/components/leetcodeScore";
+import {GET} from "@/app/api/leetcode/route";
 
 
 export default function Home() {
@@ -34,7 +35,7 @@ export default function Home() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('/api/leetcode');
+        const response = await GET();
 
         if (!response.ok) {
           setData(undefined);
