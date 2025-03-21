@@ -10,8 +10,6 @@ const nextConfig = {
   output: 'export',
   // basePath: '',
   basePath: '/last-autumn-leaf.github.io',  // The name of your repository
-  assetPrefix: '/last-autumn-leaf.github.io',  // Ensure static assets are prefixed correctly
-
 }
 
 export default nextConfig
