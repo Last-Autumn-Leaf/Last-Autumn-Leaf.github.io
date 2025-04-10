@@ -39,10 +39,18 @@ export async function GET(request) {
       })
     });
 
-    const data = await response.json();
+    const text = await response.text();  // Read raw response text
     console.log('Response Status:', response.status);
-    const text = await response.text();
     console.log('Response Text:', text);
+
+    let data;
+    try {
+      // Try to parse the text as JSON
+      data = JSON.parse(text);
+    } catch (error) {
+      console.error('Failed to parse JSON:', error.message);
+    }
+
     if (!response.ok) {
       return new Response(JSON.stringify({ message: data.message || 'Something went wrong' }), { status: response.status });
     }
