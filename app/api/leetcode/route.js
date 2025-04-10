@@ -2,7 +2,7 @@
 export async function GET(request) {
   try {
     console.log("Fetching data...");
-    const response = await fetch('https://corsproxy.io/?https://leetcode.com/graphql/', {
+    const response = await fetch('https://leetcode.com/graphql/', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -40,12 +40,18 @@ export async function GET(request) {
     });
 
     const data = await response.json();
-
+    console.log('Response Status:', response.status);
+    const text = await response.text();
+    console.log('Response Text:', text);
     if (!response.ok) {
       return new Response(JSON.stringify({ message: data.message || 'Something went wrong' }), { status: response.status });
     }
 
-    return new Response(JSON.stringify(data), { status: 200 });
+    return new Response(JSON.stringify(data),
+      {
+        status: 200 ,
+        headers: { 'Cache-Control': 'no-cache' }}
+    );
   } catch (error) {
     return new Response(JSON.stringify({ message: error.message }), { status: 500 });
   }
