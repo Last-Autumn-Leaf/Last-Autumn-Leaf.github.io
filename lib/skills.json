@@ -1,7 +1,7 @@
 {
-  "Languages": ["javascript-1","typescript","java","python-5","c","c-1"],
+  "Languages": ["javascript-2","typescript","java","python-5","c","c-1"],
   "Frontend": ["css-3","html-1","react-2","react-native-1","next-js","tailwind-css-2","material-ui-1"],
   "Backend": ["spring-3","django-community","nodejs-2"],
   "Database_&_Cloud": ["aws-2","mysql-3","postgresql","google-cloud-1","firebase-1"],
-  "Tools": ["git","figma-5","pycharm-1","intellij-idea-1","webstorm-icon","gitlab","jenkins-1","matlab"]
+  "Tools": ["git","figma-icon","pycharm-1","intellij-idea-1","webstorm-icon","gitlab","jenkins-1","matlab"]
 }

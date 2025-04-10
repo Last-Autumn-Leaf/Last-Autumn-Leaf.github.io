@@ -39,13 +39,9 @@ export async function GET(request) {
       })
     });
 
-    const text = await response.text();  // Read raw response text
-    console.log('Response Status:', response.status);
-    console.log('Response Text:', text);
-
+    const text = await response.text();
     let data;
     try {
-      // Try to parse the text as JSON
       data = JSON.parse(text);
     } catch (error) {
       console.error('Failed to parse JSON:', error.message);
