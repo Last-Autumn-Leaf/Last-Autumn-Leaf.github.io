@@ -50,7 +50,7 @@ export async function GET(request) {
     if (!response.ok) {
       return new Response(JSON.stringify({ message: data.message || 'Something went wrong' }), { status: response.status });
     }
-
+    console.log("api leetcode request made !")
     return new Response(JSON.stringify(data),
       {
         status: 200 ,
