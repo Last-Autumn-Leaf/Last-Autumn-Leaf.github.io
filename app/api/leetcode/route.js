@@ -54,7 +54,7 @@ export async function GET(request) {
     return new Response(JSON.stringify(data),
       {
         status: 200 ,
-        headers: { 'Cache-Control': 'no-cache' }}
+        headers: { 'Cache-Control': 'no-store'}}
     );
   } catch (error) {
     return new Response(JSON.stringify({ message: error.message }), { status: 500 });
