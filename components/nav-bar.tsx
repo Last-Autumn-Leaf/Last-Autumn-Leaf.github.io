@@ -9,7 +9,7 @@ import {
     SheetTrigger,
 } from "@/components/ui/sheet"
 import { Menu } from 'lucide-react';
-import me from "@/public/me.jpeg";
+import me from "@/public/me.jpg";
 
 export function NavigationBar() {
     return (

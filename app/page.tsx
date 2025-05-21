@@ -15,7 +15,7 @@ import { TracingBeam } from "@/components/ui/tracing-beam";
 import { TypewriterEffectSmooth } from "@/components/ui/typewriter-effect";
 import experiences from "@/lib/experiences.json";
 import skills from "@/lib/skills.json";
-import me from "@/public/me.jpeg";
+import me from "@/public/me.jpg";
 import projects from "@/lib/projects.json";
 import { AtSign, Github, Linkedin } from "lucide-react";
 import { SiLeetcode } from "react-icons/si";
